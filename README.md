@@ -1,5 +1,26 @@
 # Analysis of LOB Data and Development of a Short-Term Trading Strategy for S50 Futures
+## File Structure
+```
+.
+├── submission-folder/                    # Main application code folder 
+   └── split_data.ipynb           # Jupyter Notebook for data splitting
+         ├── in_sample.csv                  # In-sample data file
+         ├── out_sample.csv                 # Out-of-sample data file
+   ├── EDA.py                         # Exploratory Data Analysis code
+   ├── Strategy_in_sample.py          # Trading strategy for in-sample data
+   ├── Strategy_out_sample.py         # Trading strategy for out-of-sample data
+   ├── Performance_Metrics_in_sample.py      # Performance metrics for in-sample data
+   ├── Performance_Metrics_out_sample.py     # Performance metrics for out-of-sample data
+   └── requirements.txt               # Required libraries for the project
+   └── Summary Report of Analysis and Trading Strategy  #summarizing insights)
 
+```
+## Usage
+Run the application with the following command:
+```sh
+streamlit run ตามด้วยชื่อไฟล์python.py
+```
+🔗 [Download Data and Documentation Here](https://outlinerbcc-erytbxre62w34kff2pztbb.streamlit.app/) 🚀📊
 ## Core Concept
 My strategy focuses on utilizing high-frequency data from the Limit Order Book (LOB) along with trade data to exploit market inefficiencies at the microstructure level. Specifically, I target:
 
